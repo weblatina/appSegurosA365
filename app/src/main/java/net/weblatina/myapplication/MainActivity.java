@@ -85,7 +85,7 @@ public class MainActivity extends Activity implements OnClickListener{
                         new AndroidJsonFactory(),
                         null);
                 visionBuilder.setVisionRequestInitializer(
-                        new VisionRequestInitializer("AIzaSyA5y6vCsWvlrJ45kpF8NC1npaJ0EhCqlTs"));
+                        new VisionRequestInitializer("??????"));
                 Vision vision = visionBuilder.build();
 
                 Image base64EncodedImage = getBase64EncodedJpeg(bitmap);
